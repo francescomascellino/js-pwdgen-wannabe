@@ -9,7 +9,7 @@ button.addEventListener("click", function generatePwd (userName, userSurname, us
     userName = prompt("STEP 1: Inserisci il tuo nome")
     userSurname = prompt("STEP 2: Inserisci il tuo cognome")
     userFavColor = prompt("STEP 3: Inserisci il tuo colore preferito")
-    pwdNum = Math.floor(Math.random() * 999);
+    pwdNum = Math.floor(Math.random() * 999) + 1;
     
     console.log("La password generata è ", userName + userSurname + userFavColor + pwdNum);
     
