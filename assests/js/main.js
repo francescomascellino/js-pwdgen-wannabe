@@ -11,7 +11,7 @@ button.addEventListener("click", function generatePwd (userName, userSurname, us
     userSurname = prompt("STEP 2: Inserisci il tuo cognome");
     userFavColor = prompt("STEP 3: Inserisci il tuo colore preferito");
     
-    // con l'operatore || parseInt() da il numero intero più vicino oppure un numero casuale tra 0 e 99
+    // con l'operatore || e parseInt() la dormula prende il primo numero intero da una stringa oppure un numero casuale tra 0 e 99- (parseInt() parses a string and returns the first integer:)
     userDate = parseInt(prompt("STEP 4: Inserisci le ultime due cifre del tuo anno di nascita")) || Math.floor(Math.random() * 99) + 1;
     pwdNum = Math.floor(Math.random() * 999) + 1;
     
