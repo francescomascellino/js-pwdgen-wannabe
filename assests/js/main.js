@@ -3,8 +3,6 @@ let userSurname
 let userFavColor
 const button = document.getElementById("pwdGenerator")
 
-
-
 button.addEventListener("click", function generatePwd (userName, userSurname, userFavColor) {
 
     userName = prompt("STEP 1: Inserisci il tuo nome")
